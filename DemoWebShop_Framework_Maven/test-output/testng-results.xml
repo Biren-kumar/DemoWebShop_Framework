@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[wishlist page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[test case got passed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-07-26T11:24:21 IST" name="Default suite" finished-at="2024-07-26T11:24:33 IST" duration-ms="11549">
+    <groups>
+      <group name="smoke">
+        <method signature="WishListTestCase.verify_User_is_able_to_add_product_to_Wishlist()[pri:0, instance:testscripts.WishListTestCase@44ebcd03]" name="verify_User_is_able_to_add_product_to_Wishlist" class="testscripts.WishListTestCase"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2024-07-26T11:24:21 IST" name="Default test" finished-at="2024-07-26T11:24:33 IST" duration-ms="11549">
+      <class name="testscripts.WishListTestCase">
+        <test-method is-config="true" signature="lunchTheBrowser()[pri:0, instance:testscripts.WishListTestCase@44ebcd03]" started-at="2024-07-26T11:24:21 IST" name="lunchTheBrowser" finished-at="2024-07-26T11:24:26 IST" duration-ms="4611" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchTheBrowser -->
+        <test-method is-config="true" signature="preformLogin()[pri:0, instance:testscripts.WishListTestCase@44ebcd03]" started-at="2024-07-26T11:24:26 IST" name="preformLogin" finished-at="2024-07-26T11:24:28 IST" duration-ms="1717" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preformLogin -->
+        <test-method signature="verify_User_is_able_to_add_product_to_Wishlist()[pri:0, instance:testscripts.WishListTestCase@44ebcd03]" started-at="2024-07-26T11:24:28 IST" name="verify_User_is_able_to_add_product_to_Wishlist" finished-at="2024-07-26T11:24:32 IST" duration-ms="3833" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[wishlist page is displayed]]>
+            </line>
+            <line>
+              <![CDATA[test case got passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_User_is_able_to_add_product_to_Wishlist -->
+        <test-method is-config="true" signature="performLogout()[pri:0, instance:testscripts.WishListTestCase@44ebcd03]" started-at="2024-07-26T11:24:32 IST" name="performLogout" finished-at="2024-07-26T11:24:33 IST" duration-ms="1002" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performLogout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testscripts.WishListTestCase@44ebcd03]" started-at="2024-07-26T11:24:33 IST" name="closeBrowser" finished-at="2024-07-26T11:24:33 IST" duration-ms="342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testscripts.WishListTestCase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
